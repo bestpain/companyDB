@@ -1,0 +1,25 @@
+.favourite-dropdown {
+  position: absolute;
+  width: 240px;
+  height: 230px;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: white;
+  top: 100px;
+  right: 170px;
+  z-index: 5;
+
+  .empty-message {
+    font-size: 18px;
+    margin: 50px auto;
+  }
+  .favourite-items {
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  button {
+    margin-top: auto;
+  }
+}

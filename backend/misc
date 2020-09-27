@@ -1,0 +1,29 @@
+const a = new Company({ name: "MakeMyTrip", address: "delhi" });
+a.save();
+
+// Company.save({
+//   name: "amazon",
+//   address: "hyderabad",
+//   phoneNumber: 18002,
+// });
+// await Company.save({ name: "amdocs", address: "pune" });
+// await Company.save({ name: "byju", address: "bangalore" });
+// await Company.save({ name: "Bloomberg" });
+// await Company.save({ name: "cisco" });
+// await Company.save({ name: "directi" });
+// await Company.save({ name: "Samsung" });
+// await Company.save({ name: "Flipkart" });
+// await Company.save({ name: "Google" });
+// await Company.save({ name: "Microsoft" });
+// await Company.save({ name: "Nvidia" });
+// await Company.save({ name: "Zoho" });
+// await Company.save({ name: "TCS" });
+// await Company.save({
+//   name: "Deloitte",
+//   address: "indore",
+//   phoneNumber: 180010,
+// });
+// await Company.save({ name: "HP", address: "mumbai" });
+// await Company.save({ name: "Grofers", address: "gurgoan" });
+// await Company.save({ name: "Zomato", address: "noida" });
+// await Company.save({ name: "MakeMyTrip", address: "delhi" });

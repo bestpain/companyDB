@@ -1,0 +1,14 @@
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+
+  .title {
+    margin: 10px 0;
+  }
+  .danger {
+    color: rgba(182, 8, 8, 0.863);
+    display: flex;
+    justify-content: center;
+  }
+}

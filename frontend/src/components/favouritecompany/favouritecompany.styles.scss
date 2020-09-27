@@ -1,0 +1,14 @@
+.favourite {
+  height: 45px;
+  width: 70px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  .favourite-icon {
+    width: 100%;
+    padding: 15px;
+  }
+}

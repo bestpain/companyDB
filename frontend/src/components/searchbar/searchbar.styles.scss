@@ -1,0 +1,22 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  .search-input {
+    padding: 6px;
+    font-size: 17px;
+    width: 100%;
+  }
+  .search-button {
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    background: #ddd;
+    border: none;
+    cursor: pointer;
+  }
+  .search-button:hover {
+    background: #ccc;
+  }
+}
