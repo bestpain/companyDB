@@ -1,32 +1,28 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Single Page full stack App using React,Redux,Node.js,Mongo,Webpack,Express
+Includes Authentication,Authorization,Forgot Password,Email Verification.
 
-## How to Start locally
+## How to Start FrontEnd locally
+1.Download the frontend folder.
+2.Inside the frontend folder run ### `npm install`
+3.Build the project using ### `npm run dev`
+4.start the server using ### `npm start`
+5.visit [http://localhost:8080] in browser.(start the backend server first)
 
-In the project directory, you can run:
+## How to Start Backend locally
+1.Download the backend folder.
+2.Inside the backend folder run ### `npm install`
+3.configure db file inside db file to work with your local mongo db setup.
+4.uncomment the addCompany() method inside index.js file to insert sample data into the database.
+5.start the server using ### `npm run dev`
 
-### `npm install`
+## Frontend technologies stack
+JavaScript, React.js, Redux, Redux-Saga, Reselect,Webpack,Sass
 
-### `npm run dev`
+## Backend technologies stack
+Node.js, Express, REST API, MongoDB,JWT
 
-Runs the app in the development mode.<br />
-Open [http://localhost:5000]
+Click [Here](https://company-ui.herokuapp.com) For Live Preview.
 
-[deployment](https://xspace-ssr.herokuapp.com/) for more information.
-
-It is a Server Side Rendered App.So on visiting the homepage(localhost:5000) an static HTML file is served.
-I am making the API call after the first JS file is sent to the client because it makes the loading faster compared to making an api call with the HTML file.Making the API call with the HTML file increases the loading time.
-
-The Header and Sidebar are fixed.The content keeps on changing based on URL.
-
-Redux for state management.
-
-Redux-Saga for making API calls and handling side effects.
-Since on a single page there are many buttons which can make async/API calls a user can click on these buttons repeatedly which could lead to side effects.Saga limits the user from doing so and any new network request overwrites the previous request.
-
-React-Helmet for SEO support.
-
-Added 404 pages.
-
-Styled components for styling react components.
-
-Axios for making network requests.
+It is not using Server Side Rendering So it may take some time to load.
+Loading time could  be improved using Server Side Rendering,Code splitting,Lazy Loading.
+SignOut Function is not available so please refresh the page because authentication status is not being persisted in local storage.
