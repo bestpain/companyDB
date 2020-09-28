@@ -3,17 +3,17 @@ Includes Authentication,Authorization,Forgot Password,Email Verification.
 
 ## How to Start FrontEnd locally
 1.Download the frontend folder.</br>
-2.Inside the frontend folder run ### `npm install`
-3.Build the project using ### `npm run dev`
-4.start the server using ### `npm start`
-5.visit [http://localhost:8080] in browser.(start the backend server first)
+2.Inside the frontend folder run ### `npm install`.</br>
+3.Build the project using ### `npm run dev`.</br>
+4.start the server using ### `npm start`.</br>
+5.visit [http://localhost:8080] in browser.(start the backend server first)</br>
 
 ## How to Start Backend locally
-1.Download the backend folder.
-2.Inside the backend folder run ### `npm install`
-3.configure db file inside db file to work with your local mongo db setup.
-4.uncomment the addCompany() method inside index.js file to insert sample data into the database.
-5.start the server using ### `npm run dev`
+1.Download the backend folder.</br>
+2.Inside the backend folder run ### `npm install`.</br>
+3.configure db file inside db file to work with your local mongo db setup.</br>
+4.uncomment the addCompany() method inside index.js file to insert sample data into the database.</br>
+5.start the server using ### `npm run dev`.</br>
 
 ## Frontend technologies stack
 JavaScript, React.js, Redux, Redux-Saga, Reselect,Webpack,Sass
