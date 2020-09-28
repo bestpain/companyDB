@@ -2,7 +2,7 @@
 Includes Authentication,Authorization,Forgot Password,Email Verification.
 
 ## How to Start FrontEnd locally
-1.Download the frontend folder.
+1.Download the frontend folder.</br>
 2.Inside the frontend folder run ### `npm install`
 3.Build the project using ### `npm run dev`
 4.start the server using ### `npm start`
