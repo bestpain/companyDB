@@ -17,12 +17,12 @@ Includes Authentication,Authorization,Forgot Password,Email Verification.
 
 ## Frontend technologies stack
 JavaScript, React.js, Redux, Redux-Saga, Reselect,Webpack,Sass
-
+</br>
 ## Backend technologies stack
 Node.js, Express, REST API, MongoDB,JWT
+</br>
+Click [Here](https://company-ui.herokuapp.com) For Live Preview.</br>
 
-Click [Here](https://company-ui.herokuapp.com) For Live Preview.
-
-It is not using Server Side Rendering So it may take some time to load.
-Loading time could  be improved using Server Side Rendering,Code splitting,Lazy Loading.
-SignOut Function is not available so please refresh the page because authentication status is not being persisted in local storage.
+It is not using Server Side Rendering So it may take some time to load.</br>
+Loading time could  be improved using Server Side Rendering,Code splitting,Lazy Loading.</br>
+SignOut Function is not available so please refresh the page because authentication status is not being persisted in local storage.</br>
