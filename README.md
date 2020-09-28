@@ -6,7 +6,7 @@ Includes Authentication,Authorization,Forgot Password,Email Verification.
 2.Inside the frontend folder run `npm install`.</br>
 3.Build the project using  `npm run dev`.</br>
 4.start the server using  `npm start`.</br>
-5.visit [http://localhost:8080] in browser.(start the backend server first)</br>
+5.visit[http://localhost:8080] in browser.</br>
 
 ## How to Start Backend locally
 1.Download the backend folder.</br>
