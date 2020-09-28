@@ -7,7 +7,7 @@ const userRouter = require("./router/user");
 const authRouter = require("./router/auth");
 const companyRouter = require("./router/company");
 const app = express();
-const port = process.env.port;
+const port = process.env.PORT;
 
 //setup middlewares
 //Enable CORS for the App
